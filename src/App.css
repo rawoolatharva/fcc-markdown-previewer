@@ -1,0 +1,39 @@
+
+.boxes-container{
+  display: flex;
+  flex-direction: column;
+  margin: 1.125rem auto;
+  margin-top: 40px;
+  max-width: 600px;
+  width: 90%;
+}
+
+#editor{
+  width: 99%;
+  min-height: 200px;
+  font-size: 18px;
+  background-color: #c0d8d8;
+  resize: none;
+  padding: 10px;
+  overflow: auto;
+  border-radius: 20px;
+}
+
+.previewWrap{
+  max-width: 800px;
+  margin: 1.25rem auto;
+  min-height: 200px;
+  overflow-wrap: break-word;
+  background-color: #c0d8d8;
+  border: 1px solid #1d2f2f;
+  border-radius: 20px;
+}
+
+#preview{
+  padding: 0 1rem;
+  color: black;
+}
+
+img{
+  max-width: 100%;
+}
